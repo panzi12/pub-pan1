@@ -1,0 +1,71 @@
+    body {
+        margin: 0;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .flex {
+        display: flex;
+    }
+    .flex1 {
+        flex: 1;
+    }
+    .column {
+        flex-direction: column;
+    }
+    .border1 {
+        border: 1px solid #a0a0a0;
+    }
+    .font {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 10px;
+        font-weight: normal
+    }
+    .search-container {
+        width: 500px;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+    }
+    .search-input {
+        flex: 1;
+        border: 2px solid rgb(205, 203, 203);
+    }
+    .search-button {
+        padding: 8px 12px;
+        border: none;
+        background-color: #cc0000;
+        color: #fff;
+        border-radius: 0 4px 4px 0; /* 右侧边框圆角 */
+        cursor: pointer;
+        font-size: 14px;
+    }
+    .search-button:hover {
+        background-color: #e60000;
+    }
+    .menu-item {
+        width: 150px;
+        height: 30px;
+        background-color: #b0b0b0;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 3px;
+        font-weight: bold;
+
+    }
+    .menu-item:hover {
+        background-color: #ddd; /* 鼠标悬停时的背景颜色 */
+    }
+    .box{
+        width: 280px;
+        height: 200px;
+    }
+    .flex2{
+        justify-content: center;
+    }
+    .h1{
+        font-size: 12px;
+        font-weight: normal
+    }

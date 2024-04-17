@@ -1,0 +1,43 @@
+.search-container {
+    width: 500px;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.search-input {
+    flex: 1;
+    border: 2px solid rgb(205, 203, 203);
+}
+.search-button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #cc0000;
+    color: #fff;
+    border-radius: 0 4px 4px 0; /* 右侧边框圆角 */
+    cursor: pointer;
+    font-size: 14px;
+}
+.search-button:hover {
+    background-color: #e60000;
+}
+.font1{
+    font-size: 16px;
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+.menu-item {
+    width: 150px;
+    height: 30px;
+    background-color: #edecec;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+
+}
+.menu-item:hover {
+    background-color: #cc0000; /* 鼠标悬停时的背景颜色 */
+    color: white;
+}
