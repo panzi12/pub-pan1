@@ -1,114 +1,114 @@
-body, html {
-    margin: 0;
-    font-family:  -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    background:	#FFFFFF;
-}
+    body, html {
+        margin: 0;
+        font-family:  -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+        background:	#FFFFFF;
+    }
 
-.navbar {
-    overflow: hidden;
-}
+    .navbar {
+        overflow: hidden;
+    }
 
-.navbar button {
-    float: left;
-    padding: 14px 16px;
-    border: none;
-    outline: none;
-    background-color: inherit;
-    font-size: 12px;
-    cursor: pointer;
-}
-.search-container {
-    margin-top: 10px;
-    display: flex;
-    margin-left: 40px;
-}
-.flex{
-    display: flex; /* 启用Flexbox布局 */
-}
-.column{
-    flex-direction: column;
-}
-.button {
-    font-size: 12px; /* 重置字体大小 */
-    cursor: pointer;
-    background-color: #FFFFFF;
-    border: none;
-    letter-spacing: normal; /* 重置字符间距 */
-    color: blue;
-}
+    .navbar button {
+        float: left;
+        padding: 14px 16px;
+        border: none;
+        outline: none;
+        background-color: inherit;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .search-container {
+        margin-top: 10px;
+        display: flex;
+        margin-left: 40px;
+    }
+    .flex{
+        display: flex; /* 启用Flexbox布局 */
+    }
+    .column{
+        flex-direction: column;
+    }
+    .button {
+        font-size: 12px; /* 重置字体大小 */
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: none;
+        letter-spacing: normal; /* 重置字符间距 */
+        color: blue;
+    }
 
-.button:hover {
-    color: red; /* 鼠标悬停时字体颜色变为红色 */
-}
-.more-button {
-    margin-left: auto; /* 将按钮推到容器的右侧 */
-}
-.button2{
-    background-color:#fff;
-    font-size: 12px;
-    border-radius: 4px;
-    padding:2px 5px; /* 内边距 */
-    border: 1px solid #ddd; /* 深灰色细实线边框 */
-}
-/* 鼠标悬停在按钮上时的样式 */
-.button2:hover {
-    background-color: rgba(224, 224, 224, 0.5); /* 背景色加深 */
-    border-color: #000; /* 边框变黑色 */
-}
-.text1{
-    font-weight: bold; 
-    font-size: 12px; 
-    color: #3f3e3e;
-}
-.img{
-    width: 20px;
-    height: 20px;
-}
-th, td {
-    border: 1px solid #ddd; /* 单元格边框，实线，颜色为#ddd */
-    text-align: left;
-    font-size: 10px;
-    padding: 2px; /* 为文本添加一些内边距 */
-}
-th {
-    background-color: #eee;
-    color: black;
-    font-size: 10px;
-    text-align: center;
-    width: 100px;
-}
-.table {
-    border-collapse: collapse; /* 确保边框合并 */
-    border: 1px solid #ccc; /* 给表格本身设置边框，而不是单元格 */
-}
+    .button:hover {
+        color: red; /* 鼠标悬停时字体颜色变为红色 */
+    }
+    .more-button {
+        margin-left: auto; /* 将按钮推到容器的右侧 */
+    }
+    .button2{
+        background-color:#fff;
+        font-size: 12px;
+        border-radius: 4px;
+        padding:2px 5px; /* 内边距 */
+        border: 1px solid #ddd; /* 深灰色细实线边框 */
+    }
+    /* 鼠标悬停在按钮上时的样式 */
+    .button2:hover {
+        background-color: rgba(224, 224, 224, 0.5); /* 背景色加深 */
+        border-color: #000; /* 边框变黑色 */
+    }
+    .text1{
+        font-weight: bold; 
+        font-size: 12px; 
+        color: #3f3e3e;
+    }
+    .img{
+        width: 15px;
+        height: 15px;
+    }
+    th, td {
+        border: 1px solid #ddd; /* 单元格边框，实线，颜色为#ddd */
+        text-align: left;
+        font-size: 10px;
+        padding: 2px; /* 为文本添加一些内边距 */
+    }
+    th {
+        background-color: #f8f8f8;
+        color: black;
+        font-size: 10px;
+        text-align: center;
+        width: 100px;
+    }
+    .table {
+        border-collapse: collapse; /* 确保边框合并 */
+        border: 1px solid #ccc; /* 给表格本身设置边框，而不是单元格 */
+    }
 
-td {
-    text-align: left;
-    font-size: 10px;
-}
-.tr {
-  border-bottom: 1px solid #ccc; /* 给行设置边框，这样每行之间会有分隔线 */
-}
-.box5 {
-    width: 900px; 
-    overflow-x: scroll; 
-    border: 1px solid #ccc; 
-    margin-top: 10px;
-}
-.button3{
-    border: none;
-    font-size: 10px;
-    background-color: #eee;
-}
-.button3:hover {
-    background-color: rgba(224, 224, 224, 0.5); /* 背景色加深 */
-    border-color: #000; /* 边框变黑色 */
-}
-.button4{
-    border: none;
-    background-color: #FFFFFF;
-}
-.img2{
-    height: 20px;
-    width: 20px;
-}
+    td {
+        text-align: left;
+        font-size: 10px;
+    }
+    .tr {
+      border-bottom: 1px solid #ccc; /* 给行设置边框，这样每行之间会有分隔线 */
+    }
+    .box5 {
+        width: 900px; 
+        overflow-x: scroll; 
+        border: 1px solid #ccc; 
+        margin-top: 10px;
+    }
+    .button3{
+        border: none;
+        font-size: 10px;
+        background-color: #eee;
+    }
+    .button3:hover {
+        background-color: rgba(224, 224, 224, 0.5); /* 背景色加深 */
+        border-color: #000; /* 边框变黑色 */
+    }
+    .button4{
+        border: none;
+        background-color: #FFFFFF;
+    }
+    .img2{
+        height: 15px;
+        width: 15px;
+    }
